@@ -1,35 +1,43 @@
 # Alex Bogle
 
-IT support and technical operations candidate based in Jamaica, open to remote opportunities.
+IoT AI Technician focused on Agentic AI, AI Infrastructure, and DevOps. Based in Jamaica, open to remote opportunities.
 
-## Current focus
+## Current Focus
 
-- IT support and service-desk troubleshooting
-- Technical and application support
-- macOS and Linux fundamentals
-- Networking diagnostics and support documentation
-- Git and GitHub workflows
-- Cloud-support fundamentals
+- **Agentic AI Systems**: Multi-agent workflows, orchestration, and AI agents architecture
+- **AI Infrastructure**: Search infrastructure, vector databases, RAG systems, and agent skills management
+- **DevOps & Cloud**: Infrastructure automation, monitoring, and cloud fundamentals
+- **IoT & Edge AI**: Integration of AI systems with IoT platforms and edge devices
+- **Engineering Excellence**: System design, workflow optimization, and infrastructure as code
 
-## What this GitHub represents
+## What This GitHub Represents
 
-This account contains personal labs, prototypes, documentation, course/reference forks, and work-in-progress projects. These repositories are evidence of learning and hands-on practice, not claims of enterprise production experience.
+This account contains personal labs, prototypes, documentation, course/reference forks, and hands-on projects. These repositories demonstrate continuous learning, practical experimentation, and real-world application of Agentic AI and infrastructure concepts.
 
-## Selected work
+## Featured Projects
 
-- [Portfolio site](https://github.com/SaintChris/saintlex-portfolio): personal portfolio, currently being repositioned for support roles
-- [RAG evaluation lab](https://github.com/SaintChris/rag-eval-system): local experiment with retrieval, evaluation, FastAPI, ChromaDB, and MLflow
-- [Multi-agent workflow lab](https://github.com/SaintChris/portfolio-agentic-infra): portfolio experiment exploring agent coordination and monitoring
-- [Hermes skills](https://github.com/SaintChris/hermes-skills): documentation and reusable workflow experiments for Hermes Agent
+- [Agentic AI Engineering](https://github.com/SaintChris/agents): Complete course materials for AI agent development and patterns
+- [Portfolio Agentic Infrastructure](https://github.com/SaintChris/portfolio-agentic-infra): Multi-agent workflow lab with task queues, testing, and monitoring dashboard
+- [Hermes Agent Skills](https://github.com/SaintChris/hermes-skills): Reusable workflows and documentation for Hermes Agent orchestration
+- [HermesHub](https://github.com/SaintChris/hermeshub): Skills hub platform for browsing, sharing, and installing community agent skills
+- [Awesome Second Brain](https://github.com/SaintChris/awesome-second-brain): AI-powered personal knowledge management solutions for agent context
+- [DevOps Roadmap](https://github.com/SaintChris/DevOps-Roadmap): 2025 learning roadmap with curated DevOps resources
+- [Search Infrastructure for AI](https://github.com/SaintChris/chroma): AI search and retrieval infrastructure exploration
 
-## Currently seeking
+## Technical Expertise
 
-- IT Help Desk / Service Desk
-- IT Support / Technical Support
-- SaaS or Application Support
-- IT Operations Support
-- Cloud Support Trainee
-- Implementation Support
+- **AI Frameworks**: Multi-agent systems, LLMs, RAG, vector databases (ChromaDB)
+- **Languages**: Python, JavaScript, Git/GitHub workflows
+- **Infrastructure**: Cloud platforms, DevOps practices, Streamlit, FastAPI
+- **Systems**: macOS, Linux, networking, Git workflows
+
+## Currently Seeking
+
+- AI Infrastructure Engineer
+- Agentic AI Systems Engineer
+- DevOps Engineer
+- IoT AI Solutions Architect
+- AI Systems Integration roles
 
 ## Links
 
@@ -37,4 +45,4 @@ This account contains personal labs, prototypes, documentation, course/reference
 - LinkedIn: https://linkedin.com/in/alex-bogle
 - GitHub: https://github.com/SaintChris
 
-I welcome conversations about entry-level support and operations opportunities that are accessible from Jamaica.
+I'm open to conversations about AI infrastructure, agentic systems, IoT integration, and DevOps roles that advance AI-driven solutions.
