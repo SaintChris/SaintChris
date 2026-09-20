@@ -1,48 +1,32 @@
 # Alex Bogle
 
-IoT AI Technician focused on Agentic AI, AI Infrastructure, and DevOps. Based in Jamaica, open to remote opportunities.
+IoT & AI Technician based in Jamaica, focused on practical connected systems, AI-assisted automation, systems integration, networking, and energy technology.
 
-## Current Focus
+## Current focus
 
-- **Agentic AI Systems**: Multi-agent workflows, orchestration, and AI agents architecture
-- **AI Infrastructure**: Search infrastructure, vector databases, RAG systems, and agent skills management
-- **DevOps & Cloud**: Infrastructure automation, monitoring, and cloud fundamentals
-- **IoT & Edge AI**: Integration of AI systems with IoT platforms and edge devices
-- **Engineering Excellence**: System design, workflow optimization, and infrastructure as code
+- **IoT & connected systems** — device integration, telemetry, networking, and operational data
+- **AI & automation** — agent workflows, RAG, evaluation, and workflow automation
+- **Systems integration** — APIs, business systems, data flows, and reliability
+- **Infrastructure** — Linux, cloud fundamentals, containers, Git, and reproducible environments
+- **Energy technology** — solar, battery, monitoring, and related operational systems
 
-## What This GitHub Represents
+## Selected original projects
 
-This account contains personal labs, prototypes, documentation, course/reference forks, and hands-on projects. These repositories demonstrate continuous learning, practical experimentation, and real-world application of Agentic AI and infrastructure concepts.
+- [Portfolio Agentic Infrastructure](https://github.com/SaintChris/portfolio-agentic-infra) — learning lab for multi-agent workflows, shared task queues, testing, and monitoring
+- [Hermes Skills](https://github.com/SaintChris/hermes-skills) — reusable agent workflows and tooling
+- [RAG Evaluation System](https://github.com/SaintChris/rag-eval-system) — private local RAG evaluation lab using FastAPI, ChromaDB, MLflow, and local inference
+- [Saintlex Portfolio](https://github.com/SaintChris/saintlex-portfolio) — source for my technical portfolio
 
-## Featured Projects
+## How I work
 
-- [Agentic AI Engineering](https://github.com/SaintChris/agents): Complete course materials for AI agent development and patterns
-- [Portfolio Agentic Infrastructure](https://github.com/SaintChris/portfolio-agentic-infra): Multi-agent workflow lab with task queues, testing, and monitoring dashboard
-- [Hermes Agent Skills](https://github.com/SaintChris/hermes-skills): Reusable workflows and documentation for Hermes Agent orchestration
-- [HermesHub](https://github.com/SaintChris/hermeshub): Skills hub platform for browsing, sharing, and installing community agent skills
-- [Awesome Second Brain](https://github.com/SaintChris/awesome-second-brain): AI-powered personal knowledge management solutions for agent context
-- [DevOps Roadmap](https://github.com/SaintChris/DevOps-Roadmap): 2025 learning roadmap with curated DevOps resources
-- [Search Infrastructure for AI](https://github.com/SaintChris/chroma): AI search and retrieval infrastructure exploration
+I treat labs, prototypes, reference forks, and professional work as different categories. Project READMEs state their scope, evidence, limitations, and current status. I favor reproducible setups, least privilege, explicit security boundaries, controlled change, testing, and rollback.
 
-## Technical Expertise
+## Learning & reference repositories
 
-- **AI Frameworks**: Multi-agent systems, LLMs, RAG, vector databases (ChromaDB)
-- **Languages**: Python, JavaScript, Git/GitHub workflows
-- **Infrastructure**: Cloud platforms, DevOps practices, Streamlit, FastAPI
-- **Systems**: macOS, Linux, networking, Git workflows
-
-## Currently Seeking
-
-- AI Infrastructure Engineer
-- Agentic AI Systems Engineer
-- DevOps Engineer
-- IoT AI Solutions Architect
-- AI Systems Integration roles
+Some repositories on this account are forks retained for study or upstream contribution. They are reference material, not presented as original work. Examples include Chroma, course repositories, DevOps learning resources, and second-brain research.
 
 ## Links
 
 - Portfolio: https://saintlex.sbs/
 - LinkedIn: https://linkedin.com/in/alex-bogle
 - GitHub: https://github.com/SaintChris
-
-I'm open to conversations about AI infrastructure, agentic systems, IoT integration, and DevOps roles that advance AI-driven solutions.
