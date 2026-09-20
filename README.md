@@ -12,7 +12,9 @@ IoT & AI Technician based in Jamaica, focused on practical connected systems, AI
 
 ## Selected original projects
 
-- [Portfolio Agentic Infrastructure](https://github.com/SaintChris/portfolio-agentic-infra) — learning lab for multi-agent workflows, shared task queues, testing, and monitoring
+- [IoT Energy Telemetry Lab](https://github.com/SaintChris/iot-energy-telemetry-lab) — synthetic solar/battery telemetry over MQTT; a reproducible learning lab with tested telemetry generation and no production data
+
+- [Agentic Systems Lab](https://github.com/SaintChris/agentic-systems-lab) — learning lab for multi-agent workflows, shared task queues, testing, and monitoring
 - [Hermes Skills](https://github.com/SaintChris/hermes-skills) — reusable agent workflows and tooling
 - [Saintlex Portfolio](https://github.com/SaintChris/saintlex-portfolio) — source for my technical portfolio
 
