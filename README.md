@@ -14,7 +14,6 @@ IoT & AI Technician based in Jamaica, focused on practical connected systems, AI
 
 - [Portfolio Agentic Infrastructure](https://github.com/SaintChris/portfolio-agentic-infra) — learning lab for multi-agent workflows, shared task queues, testing, and monitoring
 - [Hermes Skills](https://github.com/SaintChris/hermes-skills) — reusable agent workflows and tooling
-- [RAG Evaluation System](https://github.com/SaintChris/rag-eval-system) — private local RAG evaluation lab using FastAPI, ChromaDB, MLflow, and local inference
 - [Saintlex Portfolio](https://github.com/SaintChris/saintlex-portfolio) — source for my technical portfolio
 
 ## How I work
