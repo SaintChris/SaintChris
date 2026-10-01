@@ -1,42 +1,27 @@
 # Alex Bogle
 
-IoT & AI Technician based in Jamaica, focused on practical connected systems, AI-assisted engineering, automation, systems integration, networking, and energy technology.
+IoT & AI Technician at a solar company in Jamaica. I work where energy equipment, field operations and AI-assisted automation meet, and I build the tooling that keeps them observable and safe to change.
 
-## Current engineering focus
+**Portfolio:** [saintlex.sbs](https://saintlex.sbs/) · **LinkedIn:** [alex-bogle](https://www.linkedin.com/in/alex-bogle/)
 
-- **IoT & connected systems** — device integration, telemetry, networking, and operational data
-- **AI-assisted engineering** — agentic development, evaluation, automation, and reliable human-in-the-loop workflows
-- **Systems integration** — APIs, business systems, data flows, and interoperability
-- **Infrastructure** — Linux, cloud fundamentals, containers, Git, reproducible environments, and technical operations
-- **Energy technology** — solar, battery, monitoring, and related operational systems
+## What I build
 
-## Selected original projects
+- **Telemetry and monitoring** for solar and battery systems: MQTT, device identity, validation, read-only dashboards
+- **AI tooling with guardrails**: agents that verify their own writes, and local memory with folder-level privacy that is read-only by default
+- **Field and operations workflows**: service-report kits, evidence capture, least-privilege access plans
 
-- [IoT Energy Telemetry Lab](https://github.com/SaintChris/iot-energy-telemetry-lab) — synthetic solar/battery telemetry over MQTT; a reproducible learning lab with tested telemetry generation and no production data
-- [Agentic Systems Lab](https://github.com/SaintChris/agentic-systems-lab) — learning lab for multi-agent workflows, shared task queues, testing, monitoring, and orchestration concepts
-- [Saintlex Portfolio](https://github.com/SaintChris/saintlex-portfolio) — source for my technical portfolio and current professional positioning
+## Selected work
+
+| Project | What it is |
+|---|---|
+| [Super Productivity: REST API + MCP adapter](https://github.com/SaintChris/super-productivity) | Open-source contribution. Added a time-logging endpoint to the local REST API and an MCP adapter that checks for duplicates and reads back every change |
+| [IoT Energy Telemetry Lab](https://github.com/SaintChris/iot-energy-telemetry-lab) | Learning lab. Synthetic solar/battery telemetry over MQTT with validation and CI |
+| [Agentic Systems Lab](https://github.com/SaintChris/agentic-systems-lab) | Learning lab. Six agent roles on a shared task queue with a mock-data dashboard |
+| [Local AI memory service](https://github.com/SaintChris/saintlex-portfolio/blob/main/case-studies/local-ai-memory-service.md) | Case study. Shared memory for several AI assistants that fails closed on privacy |
+| [Windows game on Apple Silicon](https://github.com/SaintChris/saintlex-portfolio/blob/main/case-studies/windows-game-on-apple-silicon.md) | Case study. Debugged Wine, Metal, video and licensing layers into a one-script restore |
 
 ## How I work
 
-I treat labs, prototypes, reference forks, and professional work as different categories. Project READMEs state their scope, evidence, limitations, and current status.
+Define the system boundary, collect evidence before changing anything, make the smallest reversible change, verify it, and write down what happened. Labs are labeled as labs; synthetic data is labeled as synthetic.
 
-I favor:
-
-- reproducible setups
-- least privilege
-- explicit security boundaries
-- controlled change
-- testing and validation
-- rollback capability
-- documented assumptions
-- provider-neutral architecture where practical
-
-## Learning & reference repositories
-
-Some repositories on this account are forks, archived experiments, or learning resources retained for study or upstream contribution. They are reference material and are not presented as original production work.
-
-## Links
-
-- Portfolio: https://saintlex.sbs/
-- LinkedIn: https://linkedin.com/in/alex-bogle
-- GitHub: https://github.com/SaintChris
+**Tools:** Python, FastAPI, SQLite, MQTT, Linux, Bash, Git, TypeScript, macOS, networking diagnostics, AWS fundamentals.
