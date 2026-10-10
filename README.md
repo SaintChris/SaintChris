@@ -6,12 +6,12 @@ I build and run AI and automation tools for a solar and battery installer. That 
 
 ## What I'm working on
 
-- Staff assistant and website chat: answers from 32 product documents, with rate limits, prompt-injection guards and a question set I rerun after every change. *Production pilot.*
-- Company website redesign: 15 pages built from Git source and checked at seven screen widths. *Launch pending.*
-- Solar and battery performance reporting: customer and internal PDF reports from a read-only data collector. *Professional work.*
+- Staff assistant and website chat: answers product questions from manufacturer documents, with sign-in, rate limits, prompt-injection guards and a test set I rerun after every change. *Staff pilot running.*
+- Company website redesign: a full Squarespace rebuild from version-controlled source. *Launch pending.*
+- Solar and battery performance reports: plain-language customer and internal reports built from system monitoring data. *Professional work.*
 - AI-assisted engineering workstation: local memory, a task API, nightly upkeep and guard rails on risky commands. *Personal tooling.*
 
-The repos are private. Write-ups: https://saintlex.sbs/
+These repos are private. More on https://saintlex.sbs/
 
 ## Public labs
 
