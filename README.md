@@ -12,12 +12,12 @@ Each item has its status and, where I have one, a measured result. Full write-up
 
 - **Staff assistant.** Answers staff product questions from 118 manufacturer documents and names the source. Grok 4.7 with hybrid search (BM25 and bge-base) and a MiniLM reranker, plus prompt and output guards. On a 62-question test set it gets 62 right, against 25 for plain Grok, which made up figures in 18 answers. *Staff pilot.* [Case study](https://saintlex.sbs/case-studies/staff-assistant/)
 - **Website chat.** Answers only from approved company facts and hands anything else to a person. 37 of 37 test answers right by hand, 11 of 11 red-team attacks refused. *Waits for the new site.* [Case study](https://saintlex.sbs/case-studies/website-chat/)
-- **Server, backups and monitoring.** A Linux server behind Cloudflare, with an encrypted nightly backup on a separate machine. The monthly restore drill brings back 6.1 GB in 92 seconds, and 99.67% of 221,364 uptime checks passed over 29 days. Two written postmortems. *In use.* [Case study](https://saintlex.sbs/case-studies/server-backups-and-recovery/)
+- **Server, backups and monitoring.** A cloud server with an encrypted nightly backup. The monthly restore drill brings back 6.1 GB in 92 seconds, and 99.67% of 221,364 uptime checks passed over 29 days. Two written postmortems. *In use.* [Case study](https://saintlex.sbs/case-studies/server-backups-and-recovery/)
 - **Guard rails for AI coding agents.** Three guards check every shell command an agent runs: keys only go to their own service, no pushes to main or force-pushes, and no endless sleep blocks. 24 agent skills written from vendor documentation. *In use.*
 - **Monitoring alerts and customer reports.** A daily watch of equipment alerts, matched to each customer's service history, and plain-language performance reports for 15 battery sites so far. *In use.*
 - **Field service.** Water heater repairs, inverter alert call-outs, site surveys, and Powerwall warranty follow-up with Tesla. *Since September 2026.*
-- **Field automation.** Website, ServiceM8 and Zoho workflows where a person approves every live write. Built and tested, then paused on 7 November 2026; two small read-only tools are live. *Paused.*
-- **GitHub.** 726 merged pull requests since August 2026, most written with coding agents and reviewed by me. 43 workflows across 19 repositories. When the included Actions minutes ran out on 20 October 2026, I moved CI to 7 self-hosted runners on company machines: about 1,340 minutes a month projected, against about 9,000 if every job ran on GitHub.
+- **Field automation.** Website, ServiceM8 and Zoho workflows where a person approves every live write. Built and tested, now paused; two small read-only tools are live. *Paused.*
+- **GitHub.** 726 merged pull requests since August 2026, most written with coding agents and reviewed by me. 43 workflows across 19 repositories. When the included Actions minutes ran out on 20 October 2026, I moved CI to 7 self-hosted runners: about 1,340 minutes a month projected, against about 9,000 if every job ran on GitHub.
 
 These repositories are private.
 
