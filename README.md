@@ -6,6 +6,8 @@ I build practical AI systems, agents, workflows and integrations, and I ship the
 
 **Current role:** IoT & AI Technician at IREE Solar, Jamaica. AI Engineering & Automation is the discipline, not the job title.
 
+**Open to:** remote roles in AI automation, technical support and solutions engineering, and monitoring or site reliability. Worldwide, Americas, or contract work.
+
 ## Work at IREE Solar
 
 Each item has its status and, where I have one, a measured result. Full write-ups are on [saintlex.sbs](https://saintlex.sbs/#work).
