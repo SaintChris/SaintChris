@@ -73,6 +73,5 @@ In review:
 
 - Portfolio: [saintlex.sbs](https://saintlex.sbs/)
 - LinkedIn: [alex-bogle](https://www.linkedin.com/in/alex-bogle/)
-- Email: [bogle.alex@hotmail.com](mailto:bogle.alex@hotmail.com)
 
 Forks on this account are reference material, not my own work.
