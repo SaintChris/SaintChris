@@ -23,7 +23,7 @@ These repos are private. More on [saintlex.sbs](https://saintlex.sbs/#work).
 | [iot-energy-telemetry-lab](https://github.com/SaintChris/iot-energy-telemetry-lab) | Synthetic solar and battery telemetry over MQTT: device identity, topic design, JSON validation, offline tests | Lab |
 | [sp-agent-session-sync](https://github.com/SaintChris/sp-agent-session-sync) | Puts Claude Code, T3 Code, Codex and Grok sessions onto the matching Super Productivity task | Personal project |
 | [omarchy-super-productivity](https://github.com/SaintChris/omarchy-super-productivity) | Omarchy bar widget for the current task and today's time, with start and stop | Personal project |
-| [saintlex-portfolio](https://github.com/SaintChris/saintlex-portfolio) | Source, content tests and CI for my portfolio site | Personal project |
+| [saintlex.sbs](https://saintlex.sbs/) | My portfolio site: work, case studies with measured results, and open source (private repository) | Personal project |
 
 The RAG evaluation lab stays private until its publication security review is finished.
 
