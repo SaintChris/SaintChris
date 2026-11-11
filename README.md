@@ -6,14 +6,20 @@ I build practical AI systems, agents, workflows and integrations, and I ship the
 
 **Current role:** IoT & AI Technician at IREE Solar, Jamaica. AI Engineering & Automation is the discipline, not the job title.
 
-## Building
+## Work at IREE Solar
 
-- **Staff assistant and website chat.** Answers product questions from manufacturer documents, with sign-in, rate limits, prompt and output guards, and a test set I rerun after every change. *Staff pilot running.*
-- **Field automation.** The company website, ServiceM8 and Zoho, connected so a job and an invoice move together. A person approves every live write. *Professional work.*
-- **Solar and battery performance reports.** Plain-language customer and internal reports built from read-only monitoring data. A reporting gap is not an equipment fault. *Professional work.*
-- **AI-assisted engineering workstation.** Local memory, a task API, nightly upkeep and guard rails on risky commands. *Personal tooling.*
+Each item has its status and, where I have one, a measured result. Full write-ups are on [saintlex.sbs](https://saintlex.sbs/#work).
 
-These repos are private. More on [saintlex.sbs](https://saintlex.sbs/#work).
+- **Staff assistant.** Answers staff product questions from 118 manufacturer documents and names the source. Grok 4.7 with hybrid search (BM25 and bge-base) and a MiniLM reranker, plus prompt and output guards. On a 62-question test set it gets 62 right, against 25 for plain Grok, which made up figures in 18 answers. *Staff pilot.* [Case study](https://saintlex.sbs/case-studies/staff-assistant/)
+- **Website chat.** Answers only from approved company facts and hands anything else to a person. 37 of 37 test answers right by hand, 11 of 11 red-team attacks refused. *Waits for the new site.* [Case study](https://saintlex.sbs/case-studies/website-chat/)
+- **Server, backups and monitoring.** A Linux server behind Cloudflare, with an encrypted nightly backup on a separate machine. The monthly restore drill brings back 6.1 GB in 92 seconds, and 99.67% of 221,364 uptime checks passed over 29 days. Two written postmortems. *In use.* [Case study](https://saintlex.sbs/case-studies/server-backups-and-recovery/)
+- **Guard rails for AI coding agents.** Three guards check every shell command an agent runs: keys only go to their own service, no pushes to main or force-pushes, and no endless sleep blocks. 24 agent skills written from vendor documentation. *In use.*
+- **Monitoring alerts and customer reports.** A daily watch of equipment alerts, matched to each customer's service history, and plain-language performance reports for 15 battery sites so far. *In use.*
+- **Field service.** Water heater repairs, inverter alert call-outs, site surveys, and Powerwall warranty follow-up with Tesla. *Since September 2026.*
+- **Field automation.** Website, ServiceM8 and Zoho workflows where a person approves every live write. Built and tested, then paused on 7 November 2026; two small read-only tools are live. *Paused.*
+- **GitHub.** 726 merged pull requests since August 2026, most written with coding agents and reviewed by me. 43 workflows across 19 repositories. When the included Actions minutes ran out on 20 October 2026, I moved CI to 7 self-hosted runners on company machines: about 1,340 minutes a month projected, against about 9,000 if every job ran on GitHub.
+
+These repositories are private.
 
 ## Featured work
 
@@ -25,7 +31,7 @@ These repos are private. More on [saintlex.sbs](https://saintlex.sbs/#work).
 | [omarchy-super-productivity](https://github.com/SaintChris/omarchy-super-productivity) | Omarchy bar widget for the current task and today's time, with start and stop | Personal project |
 | [saintlex.sbs](https://saintlex.sbs/) | My portfolio site: work, case studies with measured results, and open source (private repository) | Personal project |
 
-The RAG evaluation lab stays private until its publication security review is finished.
+The RAG evaluation lab is private for now.
 
 ## Open-source contributions
 
@@ -53,10 +59,11 @@ In review:
 
 ## Stack
 
-- **Daily:** Linux, Bash, Git, Docker, GitHub Actions, Python, Node.js, TypeScript, Rust.
-- **AI and data:** document retrieval with hybrid search, evaluation sets, prompt and output guards, AI coding agents.
+- **Daily:** Linux, Bash, Git, Docker, GitHub Actions with self-hosted runners, Python, Node.js, TypeScript, Rust.
+- **AI and data:** Grok, Open WebUI, hybrid search (BM25 and embeddings) with a reranker, evaluation sets with baselines, prompt and output guards, AI coding agents (Claude Code, Codex, Grok).
 - **Automation and integration:** n8n, REST APIs, ServiceM8, Zoho, Google Workspace, Cloudflare.
-- **Energy systems:** Tesla Powerhub and Powerwall, Fronius, eGauge, solar and battery monitoring, outage and reserve analysis.
+- **Operations:** restic backups with restore drills, Uptime Kuma, Healthchecks.io, ntfy alerts, Trivy image scans.
+- **Energy systems:** Tesla Powerhub and Powerwall, Fronius, eGauge, WeCo, solar and battery monitoring, outage and reserve analysis.
 - **Foundation:** device and firmware troubleshooting, networking diagnostics.
 - **Learning:** AWS fundamentals, MQTT and IoT integration (lab only).
 
